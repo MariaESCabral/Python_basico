@@ -55,12 +55,12 @@ salario = valor_por_hora * horas_trabalhadas
 
 print(f"Seu salário no referido mês é: R${salario:.2f}")
 
-#9. Faça um Programa que parte a temperatura em graus Farenheit, transforma e mostra a temperatura em graus Celsius. C=(5*(F-32)/9).
+#9. Faça um Programa que passe* a temperatura em graus Farenheit, transforma e mostra a temperatura em graus Celsius. C=(5*(F-32)/9).
 fahrenheit = float(input("Digite a temperatura em graus Fahrenheit: "))
 celsius = (5 * (fahrenheit - 32)) / 9
 print(f"A temperatura em graus Celsius é: {celsius:.2f}°C")
 
-#10. Faça um programa que parte a temperatura em graus Celsius, transforma e mostra em graus Farenheit.
+#10. Faça um programa que passe* a temperatura em graus Celsius, transforma e mostra em graus Farenheit.
 celsius = float(input("Digite a temperatura em graus Celsius: "))
 fahrenheit = (celsius * 9/5) + 32
 print(f"A temperatura em graus Fahrenheit é: {fahrenheit:.2f}°F")
