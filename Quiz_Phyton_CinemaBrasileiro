@@ -1,0 +1,60 @@
+pontuacao = 0
+
+print("\nPergunta 1: Qual filme brasileiro ganhou o oscar de melhor filme estrangeiro em 1999?")
+print("a) Cidade de Deus")
+print("b) O Que É Isso, Companheiro?")
+print("c) Central do Brasil")
+resposta1 = input("").lower()
+
+if resposta1 == "b":
+    print("Resposta correta!")
+    pontuacao += 1
+else:
+    print("Resposta incorreta.")
+
+print("\nPergunta 2: Qual ator brasileiro interpretou o personagem zé Pequeno em 'Cidade de Deus'?")
+print("a) Wagner Moura")
+print("b) Lázaro Ramos")
+print("c) Seu Jorge")
+resposta2 = input("").lower()
+
+if resposta2 == "a":
+    print("Resposta correta!")
+    pontuacao += 1
+else:
+    print("Resposta incorreta.")
+
+print("\nPergunta 3: Qual diretor brasileiro é conhecido por filmes como 'Tropa de Elite' e 'O Padre e a Moça'?")
+print("a) Glauber Rocha")
+print("b) José Padilha")
+print("c) Hector Babenco")
+resposta3 = input("").lower()
+
+if resposta3 == "b":
+    print("Resposta correta!")
+    pontuacao += 1
+else:
+    print("Resposta incorreta.")
+
+
+print("\nPergunta 4: Qual filme brasileiro foi indicado ao Oscar de Melhor Animação em 2020?")
+print("a) O Menino e o Mundo")
+print("b) Tito e os Pássaros")
+print("c) Uma História de Amor e Fúria")
+resposta4 = input("").lower()
+
+if resposta4 == "b":
+    print("Resposta correta!")
+    pontuacao += 1
+else:
+    print("Resposta incorreta.")
+
+print("\nPergunta 5: Qual atriz brasileira ganhou o oscar de Mmlhor atriz por sua atuação em 'Central do Brasil'?")
+print("a) Fernanda Torres")
+print("b) Marília Pêra")
+print("c) Fernanda Montenegro")
+resposta5 = input("").lower()
+
+if resposta5 == "c":
+    print("Resposta correta!")
+    pontuacao += 1
